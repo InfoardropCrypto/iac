@@ -1,0 +1,861 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="airdrop crypto">
+  <meta name="keywords" content="crypto, token crypto, bitcoin, near, solana, ethereum">
+  <title>CoincryptoIAC</title>
+  <link rel="icon" type="image/x-icon" href="img/iac1.png">
+  
+  <!---stylecss--->
+  <link rel="stylesheet" href="style.css"/>
+  <!---stylecrypto--->
+  <link rel="stylesheet" href="coincrypto.css"/>
+  <script src="nav.js"></script>
+</head>
+<style>
+  h1 {
+    text-align: center;
+  }
+  details {
+    border-radius: 27px;
+  }
+  body {
+    background-color: #ddebea;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+  .kosong {
+    height: 20px;
+  }
+#bgVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+  }
+  
+  summary {
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px;
+    background-color: ;
+    border-bottom: 1px solid rgba(255,255,255,0.022);
+  }
+
+ a {
+   color: skyblue;
+ }
+
+
+  /* Animasi zoom in */
+  @keyframes zoomIn {
+    from {
+      transform: scale(1.1);
+      opacity: 0;
+    }
+    to {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+
+.bundar {
+  border-radius: 30px;
+}
+
+  .zoom {
+    animation: zoomIn 0.5s ease;
+  }
+</style>
+<body>
+
+  <nav>
+    <div class="menu-toggle" onclick="toggleMenu()">&#9776;</div>
+    <ul id="menu">
+      <li><a href="halaman_id.html">Home</a></li>
+      <li><a href="airdrop.html">Airdrop</a></li>
+      <li><a href="coincrypto.html">Coin Crypto</a></li>
+    </ul>
+      
+  </nav>
+  
+<div id="coinmarketcap-widget-marquee" coins="1,1027,21794,1839,20947,23149,11841,1958,3408" currency="IDR" theme="light" transparent="false" show-symbol-logo="true"></div>
+  
+  <p style="height:30px;"></p>
+  
+  <div class="iac3d">
+      <div class="sidebtc">
+      <img src="img/iac1.png" width="154"></div>
+      <div class="sidebtc tails">
+      <img src="img/iac1.png" width="154"></div>
+      </div>
+  
+    <h1 class="backroundwallet">
+    <font class="fnbkg">
+    <font class="fn2">Crypto</font>
+    <font class="fn2">Curenncy</font>
+    <font class="fn1">By IAC</font>
+    </font>
+    </h1>
+  
+  <!---bitcoin--->
+  <div>
+    <details class="bitcoinbody">
+      <summary>Bitcoin<img class="bundar" src="cryptologo/bitcoin.png"width="20"></summary>
+      <h2>BITCOIN</h2>
+      <div class="bitcoin3d">
+      <div class="sidebtc">
+      <img src="cryptologo/bitcoin.png" width="154"></div>
+      <div class="sidebtc tails">
+      <img src="cryptologo/bitcoin.png" width="154"></div>
+      </div>
+      <div class="bitcoinkosong"></div>
+      <h4 class="bitcoinbody">
+        ☰Bitcoin<img class="bundar" 
+      src="cryptologo/bitcoin.png" 
+      width="15"/> adalah jaringan abadi peer-to-peer yang tahan sensor dan bersifat open source. Emas digital yang dapat dilacak. yang dibuat pada tahun 2009 oleh Satoshi Nakamoto </h4>
+      
+      <!---hargabitcoin--->
+    <div class="bitcoinbody">
+      <summary>Harga:</summary>
+      <div 
+      class="coinmarketcap-currency-widget" 
+      data-currencyid="1" 
+      data-base="IDR" 
+      data-secondary="" 
+      data-ticker="true" 
+      data-rank="true" 
+      data-marketcap="true" 
+      data-volume="true" 
+      data-statsticker="true" 
+      data-stats="IDR"></div>
+      </div>
+      <h1>Bitcoin Gas Price⛽</h1>
+    <p id="lowFee">Loading gas price...</p>
+    <p id="normalFee"></p>
+    <p id="fastFee"></p>
+      <div class="bitcoinbody">
+        <h1>Halving Bitcoin</h1>
+        <h6 id="btchlv"></h6>
+        <p><a href="btchalving.html"><i>apa itu bitcoin halving?</i></a></p>
+      </div>
+      <div class="bitcoinbody">
+      <a href="https://twitter.com/Bitcoin">
+      <img class="bundar" src="img/xiac.png" width="40"></a>
+      <a href="https://bitcoin.org/">
+      <img class="bundar" src="img/websitelogo.png" width="40"></a>
+      <a href="https://github.com/bitcoin/bitcoin"><img class="bundar" src="img/github.png" width="40"></a>
+      <a href="video/bitcoin_id.pdf"><img class="bundar" src="img/whitepaper.png" width="40"></a>
+      <div class="bitcoinbody">
+      <a href="https://blockchair.com/id/bitcoin"><img onclick="this.classList.toggle('zoom')" class="bundar" src="img/blockchainexplorer.png" width="170"></a></div>
+      </details>
+    </div>
+  </div>
+  <div class="kosong"></div>
+  
+  <!---ethereum--->
+  <div>
+    <details class="ethereumbody">
+     <summary>Ethereum<img class="bundar" src="cryptologo/ethereum.png" width="20">
+    </summary>
+    <h2 class="ethereumh2">ETH</h2>
+    <div class="ethereum3d">
+  <div class="ethside">
+    <img src="cryptologo/ethereum.png" width="154"></div>
+  <div class="ethside ethbelakang">
+    <img src="cryptologo/ethereum.png" width="154">
+    </div></div>
+    <div class="kosong"></div>
+    <div class="ethereumfont">
+    <font>☰Ethereum<img class="bundar" src="cryptologo/ethereum.png" width="10"> adalah teknologi yang menjadi rumah bagi uang digital, pembayaran global, dan aplikasi. Komunitas ini telah membangun ekonomi digital yang berkembang pesat, memberanikan diri memberi cara-cara jelas bagi pembuat konten untuk menghasilkan uang secara online, dan banyak lagi. Ini terbuka untuk semua orang, di mana pun Anda berada di dunia – yang Anda butuhkan hanyalah internet.</font></div>
+    <div class="kosong"></div>
+    <div class="ethereumbody">
+      <summary>Harga:</summary>
+    <div class="coinmarketcap-currency-widget" data-currencyid="1027" data-base="IDR" data-secondary="" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-statsticker="true" data-stats="IDR"></div>
+    <div id="gasInfo">
+    <p>Loading gas price...</p>
+  </div>
+  <div id="lastUpdated"></div>
+    </div>
+    <div class="ethereumbody">
+      <a href="https://twitter.com/ethereum"><img class="bundar" src="img/xiac.png" width="40"></a>
+      <a href="https://ethereum.org/id/"><img class="bundar" src="img/websitelogo.png" width="40"></a>
+      <a href="https://github.com/ethereum/"><img class="bundar" src="img/github.png" width="40"></a>
+      <a href="https://ethereum.org/id/whitepaper"><img class="bundar" src="img/whitepaper.png"width="40"></a>
+    </div>
+    <div class="ethereumbody">
+      <a href="https://etherscan.io/">
+        <img class="bundar" src="img/blockchainexplorer.png" width="170">
+        </a></div>
+      </details>
+  </div>
+  <div class="kosong"></div>
+  
+  <!---bnb--->
+  <details class="bnbbody">
+    <summary>BNB Smart Chain<img class="bundar" src="cryptologo/bnb.png" width="20"></summary>
+    <h2>BNB</h2>
+    <div class="bnb3d">
+    <div class="sidebnb">
+    <img src="cryptologo/bnb.png" width="154">
+    </div>
+    <div class="sidebnb tails">
+    <img src="cryptologo/bnbsmc.png" width="154"></div></div>
+    <div class="kosong"></div>
+    <p class="bnbbody">☰BSC<img src="cryptologo/bnb.png" width="15">  adalah Ekosistem blockchain berbasis komunitas
+ solusi penskalaan Layer-1 dan Layer-2</p>
+    <div class="bnbbody">Harga:<div 
+      class="coinmarketcap-currency-widget" 
+      data-currencyid="1839" 
+      data-base="IDR" 
+      data-secondary="" 
+      data-ticker="true" 
+      data-rank="true" 
+      data-marketcap="true" 
+      data-volume="true" 
+      data-statsticker="true" 
+      data-stats="IDR"></div></div>
+    <div class="bnbbody">
+      <a href="https://twitter.com/bnbchain"><img class="bundar" src="img/xiac.png" width="40"></a>
+      <a href="https://www.bnbchain.org/id-ID"><img class="bundar" src="img/websitelogo.png" width="40"></a>
+      <a href="https://github.com/bnb-chain"><img class="bundar" src="img/github.png" width="40"></a>
+      <a href="https://t.me/bnbchain"><img class="bundar" src="img/telegram.png" width="40"></a>
+      <a href="https://github.com/bnb-chain/whitepaper/blob/master/WHITEPAPER.md"><img class="bundar" src="img/whitepaper.png" width="40"></a>
+    </div>
+    <div class="bnbbody">
+      <a href="https://bscscan.com/"><img class="bundar" src="img/blockchainexplorer.png" width="170"></a>
+    </div>
+  </details>
+  <div class="kosong"></div>
+  
+  <!---solana--->
+  <details class="solanabody">
+    <summary>Solana<img class="bundar" src="cryptologo/solana.jpg" width="20"></summary>
+    <h2>SOL</h2>
+    <div class="solana3d">
+    <div class="sidesol">
+    <img src="cryptologo/solana.jpg" width="154">
+    </div>
+    <div class="sidesol tails">
+    <img src="cryptologo/solana.jpg" width="154"></div></div>
+    <div class="kosong"></div>
+    <div class="solanabody">
+      <p style="color:#64407b;font-family:monospace;">
+        Hadirkan blockchain kepada masyarakat. Solana<img src="cryptologo/solana.jpg" width="15"> mendukung pengalaman bagi power user, konsumen baru, dan semua orang di antaranya.
+      </p>
+    </div>
+    <div class="kosong"></div>
+    <div class="solanabody">Harga:
+    <div 
+      class="coinmarketcap-currency-widget" 
+      data-currencyid="5426" 
+      data-base="IDR" 
+      data-secondary="" 
+      data-ticker="true" 
+      data-rank="true" 
+      data-marketcap="true" 
+      data-volume="true" 
+      data-statsticker="true" 
+      data-stats="IDR"></div>
+      </div>
+      </div>
+      <div class="solanabody">
+        <a href="https://twitter.com/solana"><img class="bundar" src="img/xiac.png" width="40"></a>
+        <a href="https://t.me/solana"><img class="bundar" src="img/telegram.png" width="40"></a>
+        <a href="https://github.com/solana-labs"><img class="bundar" src="img/github.png" width="40"></a>
+        <a href="https://solana.com/"><img class="bundar" src="img/websitelogo.png" width="40"></a>
+        <a href="https://solana.com/solana-whitepaper.pdf"><img class="bundar" src="img/whitepaper.png" width="40"></a>
+      </div>
+      <div class="solanabody">
+        <a href="https://solscan.io/"><img class="bundar" src="img/blockchainexplorer.png" width="170"></a>
+      </div>
+  </details>
+  <div class="kosong"></div>
+  
+  <!---SUI--->
+  <details class="suibody">
+    <summary>Sui
+    <img class="bundar" 
+    src="cryptologo/sui.png" width="20"/></summary>
+    <h2 class="suih2">SUI</h2>
+    <div class="sui3d">
+    <div class="sidesui">
+    <img src="cryptologo/sui.png" width="154">
+    </div>
+    <div class="sidesui tails">
+    <img src="cryptologo/sui.png" width="154"></div></div>
+    <div class="kosong"></div>
+    <div class="suih3">
+    <font class="fontsui">☰Sui<img class="bundar" src="cryptologo/sui.png" width="14"> adalah blockchain layer1 dirancang untuk membuat kepemilikan aset digital menjadi cepat, pribadi, aman, dan dapat diakses oleh semua orang</font></div>
+    <div class="suibody">Harga:
+      <div class="coinmarketcap-currency-widget" data-currencyid="20947" data-base="IDR" data-secondary="" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-statsticker="true" data-stats="IDR"></div></div>
+      <div class="suibody">
+        <a href="https://twitter.com/SuiNetwork"><img class="bundar" src="img/xiac.png" width="40"></a>
+      <a href="https://sui.io/#"><img class="bundar" src="img/websitelogo.png" width="40"></a>
+      <a href="https://github.com/MystenLabs"><img class="bundar" src="img/github.png" width="40"></a>
+      <a href="https://discord.gg/sui"><img class="bundar" src="img/discord.png" width="40"></a>
+      <a href="https://docs.sui.io/"><img class="bundar" src="img/whitepaper.png" width="40"></a>
+    </div>
+    <div class="suibody">
+      <a href="https://suiexplorer.com/"><img class="bundar" src="img/blockchainexplorer.png" width="170"></a>
+    </div>
+      </div>
+  </details>
+  <div class="kosong"></div>
+  
+  <!---Aptos--->
+  <details class="aptosbody">
+    <summary>Aptos<img class="bundar" src="cryptologo/aptos.png" width="20"></summary>
+    <h2 class="aptosh2">Aptos</h2>
+    <div class="aptos3d">
+    <div class="sideaptos">
+    <img src="cryptologo/aptos.png" width="154">
+    </div>
+    <div class="sideaptos tails">
+    <img src="cryptologo/aptos.png" width="154"></div></div>
+    <div class="kosong"></div>
+    <p class="fontaptosputih">
+      ☰Aptos<img class="bundar" src="cryptologo/aptos.png" width="12"> adalah jaringan blockchain</p><p 
+      class="fontaptosblack"> dengan semua yang Anda butuhkan untuk membangun ide besar Anda. Ayo bergerak.</p>
+    <div class="kosong"></div>
+    <div class="aptosbody">Harga:
+    <div 
+      class="coinmarketcap-currency-widget" 
+      data-currencyid="21794" 
+      data-base="IDR" 
+      data-secondary="" 
+      data-ticker="true" 
+      data-rank="true" 
+      data-marketcap="true" 
+      data-volume="true" 
+      data-statsticker="true" 
+      data-stats="IDR"></div>
+      </div>
+      <div class="aptosbody">
+        <a href="https://twitter.com/aptos_network"><img class="bundar" src="img/xiac.png" width="40"></a>
+      <a href="https://aptosfoundation.org/"><img class="bundar" src="img/websitelogo.png" width="40"></a>
+      <a href="https://github.com/aptos-labs"><img class="bundar" src="img/github.png" width="40"></a>
+      <a href="https://discord.com/invite/aptosnetwork"><img class="bundar" src="img/discord.png" width="40"></a>
+      <a href="https://aptosfoundation.org/whitepaper"><img class="bundar" src="img/whitepaper.png" width="40"></a>
+    </div>
+    <div class="aptosbody">
+      <a href="https://aptoscan.com/"><img class="bundar" src="img/blockchainexplorer.png" width="170"></a>
+    </div>
+      </div>
+  </details>
+  <div class="kosong"></div>
+  
+  <!---ARB--->
+  <details class="arbitrumbody">
+    <summary>Arbitrum<img class="bundar" src="cryptologo/arbitrum.png" width="20"></summary>
+    <h2 class="arbh2">ARB</h2>
+    <div class="arb3d">
+    <div class="sidearb">
+    <img src="cryptologo/arbitrum.png" width="154">
+    </div>
+    <div class="sidearb tails">
+    <img src="cryptologo/arbitrum.png" width="154"></div></div>
+    <div class="kosong"></div>
+    <p class="arbfont">☰Arbitrum<img src="cryptologo/arbitrum.png" width="15"> adalah rangkaian teknologi yang dirancang untuk menskalakan Ethereum. Anda dapat menggunakan rantai Arbitrum untuk melakukan semua hal yang Anda lakukan di Ethereum</p>
+    <div class="arbitrumbody">Harga:
+    <div 
+      class="coinmarketcap-currency-widget" 
+      data-currencyid="11841" 
+      data-base="IDR" 
+      data-secondary="" 
+      data-ticker="true" 
+      data-rank="true" 
+      data-marketcap="true" 
+      data-volume="true" 
+      data-statsticker="true" 
+      data-stats="IDR"></div>
+      </div>
+      <div class="arbitrumbody">
+        <p>Nama Jaringan: Arbitrum</p>
+      <p>URL RPC: https://arb1.arbitrum.io/rpc</p>
+      <p>ID Rantai: 42161</p>
+      <p>Simbol Mata Uang: ETH</p>
+      <p>Block Explorer URL: https://arbiscan.io/</p>
+      </div>
+      <div class="arbitrumbody">
+        <a href="https://twitter.com/arbitrum"><img class="bundar" src="img/xiac.png" width="40"></a>
+        <a href="https://arbitrum.io/"><img class="bundar" src="img/websitelogo.png" width="40"></a>
+        <a href="https://discord.com/invite/arbitrum"><img class="bundar" src="img/discord.png" width="40"></a>
+        <a href="https://github.com/OffchainLabs"><img class="bundar" src="img/github.png" width="40"></a>
+        <a href="https://github.com/OffchainLabs"><img class="bundar" src="img/whitepaper.png" width="40"></a>
+      </div>
+      <div class="arbitrumbody">
+        <a href="https://arbiscan.io/"><img class="bundar" src="img/blockchainexplorer.png" width="170"></a>
+      </div>
+  </details>
+  <div class="kosong"></div>
+  
+  <!---Cardano--->
+  <details class="cardanobody">
+    <summary>Cardano<img class="bundar" src="cryptologo/cardano.png" width="20"></summary>
+    <h2>ADA</h2>
+    <div class="cardano3d">
+    <div class="sideada">
+    <img src="cryptologo/cardano.png" width="154">
+    </div>
+    <div class="sideada tails">
+    <img src="cryptologo/cardano.png" width="154"></div></div>
+    <div class="kosong"></div>
+    <div class="fontcardano"><font>Cardano<img class="bundar" src="cryptologo/cardano.png" width="15"> adalah platform blockchain untuk pembuat perubahan, inovator, dan visioner, dengan alat dan teknologi yang diperlukan untuk menciptakan kemungkinan bagi banyak orang, serta sedikit orang, dan membawa perubahan global yang positif.</font></div>
+    <div class="cardanobody">Harga:
+    <div 
+      class="coinmarketcap-currency-widget" 
+      data-currencyid="2010" 
+      data-base="IDR" 
+      data-secondary="" 
+      data-ticker="true" 
+      data-rank="true" 
+      data-marketcap="true" 
+      data-volume="true" 
+      data-statsticker="true" 
+      data-stats="IDR"></div>
+      </div>
+      </div>
+      <div class="cardanobody">
+        <a href="https://twitter.com/cardano"><img class="bundar" src="img/xiac.png" width="40"></a>
+        <a href="https://t.me/Cardano"><img class="bundar" src="img/telegram.png" width="40"></a>
+        <a href="https://cardanoupdates.com/"><img class="bundar" src="img/github.png" width="40"></a>
+        <a href="https://www.cardano.org/"><img class="bundar" src="img/websitelogo.png" width="40"></a>
+        <a href="https://docs.cardano.org/en/latest/"><img class="bundar" src="img/whitepaper.png" width="40"></a>
+      </div>
+      <div class="cardanobody">
+        <a href="https://cardanoscan.io/"><img class="bundar" src="img/blockchainexplorer.png" width="170"></a>
+      </div>
+  </details>
+  <div class="kosong"></div>
+  
+  <!---INJ--->
+  <details class="injbody">
+    <summary>Injective<img class="bundar" src="cryptologo/inj.png" width="20"></summary>
+    <h2>INJ</h2>
+    <div class="inj3d">
+    <div class="sideinj">
+    <img src="cryptologo/inj.png" width="154">
+    </div>
+    <div class="sideinj tails">
+    <img src="cryptologo/inj.png" width="154"></div></div>
+    <div class="kosong"></div>
+    <div class="injbody">
+     <p>Misi ☰Injective<img class="bundar" src="cryptologo/inj.png" width="15"> adalah menciptakan sistem keuangan yang benar-benar bebas dan inklusif melalui desentralisasi.</p>
+     </div>
+    <div class="injbody">Harga:
+    <div 
+      class="coinmarketcap-currency-widget" 
+      data-currencyid="7226" 
+      data-base="IDR" 
+      data-secondary="" 
+      data-ticker="true" 
+      data-rank="true" 
+      data-marketcap="true" 
+      data-volume="true" 
+      data-statsticker="true" 
+      data-stats="IDR"></div>
+      </div>
+      </div>
+      <div class="injbody">
+        <a href="https://twitter.com/Injective_"><img class="bundar" src="img/xiac.png" width="40"></a>
+        <a href="https://t.me/joininjective"><img class="bundar" src="img/telegram.png" width="40"></a>
+        <a href="https://github.com/InjectiveLabs"><img class="bundar" src="img/github.png" width="40"></a>
+        <a href="https://injective.com/"><img class="bundar" src="img/websitelogo.png" width="40"></a>
+        <a href="https://docs.injectiveprotocol.com/#introduction"><img class="bundar" src="img/whitepaper.png" width="40"></a>
+      </div>
+      <div class="injbody">
+        <a href="https://explorer.injective.network/"><img class="bundar" src="img/blockchainexplorer.png" width="170"></a>
+      </div>
+  </details>
+  <div class="kosong"></div>
+  
+  <!---celestia--->
+  <details class="celestiabody">
+    <summary>Celestia<img class="bundar" src="cryptologo/celestia.png" width="20"></summary>
+    <h2>TIA</h2>
+    <div class="celestia3d">
+    <div class="sidetia">
+    <img src="cryptologo/celestia.png" width="154">
+    </div>
+    <div class="sidetia tails">
+    <img src="cryptologo/celestia.png" width="154"></div></div>
+    <div class="kosong"></div>
+    <div class="celestiabody">
+      <p>☰Celestia<img class="bundar"src="cryptologo/celestia.png"width="15"> adalah jaringan ketersediaan data modular yang memudahkan siapa pun meluncurkan blockchain mereka sendiri dengan aman.</p>
+    </div>
+    <div class="celestiabody">Harga:
+    <div 
+      class="coinmarketcap-currency-widget" 
+      data-currencyid="22861" 
+      data-base="IDR" 
+      data-secondary="" 
+      data-ticker="true" 
+      data-rank="true" 
+      data-marketcap="true" 
+      data-volume="true" 
+      data-statsticker="true" 
+      data-stats="IDR"></div>
+      </div>
+      </div>
+      <div class="celestiabody">
+        <a href="https://twitter.com/CelestiaOrg"><img class="bundar" src="img/xiac.png" width="40"></a>
+        <a href="https://discord.com/invite/YsnTPcSfWQ"><img class="bundar" src="img/discord.png" width="40"></a>
+        <a href="https://t.me/CelestiaCommunity"><img class="bundar" src="img/telegram.png" width="40"></a>
+        <a href="https://github.com/celestiaorg"><img class="bundar" src="img/github.png" width="40"></a>
+        <a href="https://www.celestia.org/"><img class="bundar" src="img/websitelogo.png" width="40"></a>
+        <a href="https://arxiv.org/abs/1905.09274"><img class="bundar" src="img/whitepaper.png" width="40"></a>
+      </div>
+      <div class="celestiabody">
+        <a href="https://celenium.io/"><img class="bundar" src="img/blockchainexplorer.png" width="170"></a>
+      </div>
+  </details>
+  <div class="kosong"></div>
+  
+  <!---OP--->
+  <details class="opbody">
+    <summary>Optimism<img class="bundar" src="cryptologo/optimism.png" width="20"></summary>
+    <h2>OP</h2>
+    <div class="op3d">
+    <div class="sideop">
+    <img src="cryptologo/optimism.png" width="154">
+    </div>
+    <div class="sideop tails">
+    <img src="cryptologo/optimism.png" width="154"></div></div>
+    <div class="kosong"></div>
+    <div class="opbody">
+      <p>
+        ☰Optimism<img class="bundar"src="cryptologo/optimism.png"width="20"> adalah blockchain Layer-2 di atas Ethereum. Optimism mendapat manfaat dari keamanan jaringan utama Ethereum dan membantu meningkatkan skala ekosistem Ethereum dengan menggunakan rollup optimistic. Itu berarti transaksi dicatat tanpa memerlukan kepercayaan manusia pada Optimism tetapi pada akhirnya diamankan di Ethereum.
+      </p>
+    </div>
+    <div style="background-color: #ffffff63; border: inset #e70000ec 12px;">Harga:
+    <div 
+      class="coinmarketcap-currency-widget" 
+      data-currencyid="11840" 
+      data-base="IDR" 
+      data-secondary="" 
+      data-ticker="true" 
+      data-rank="true" 
+      data-marketcap="true" 
+      data-volume="true" 
+      data-statsticker="true" 
+      data-stats="IDR"></div>
+      </div>
+      <p>Nama Jaringan: OP Mainnet</p>
+      <p>URL RPC: https://mainnet.optimism.io/</p>
+      <p>ID Rantai: 10</p>
+      <p>Simbol Mata Uang: ETH</p>
+      <p>Block Explorer URL: https://explorer.optimism.io/</p>
+      </div>
+      <div class="opbody">
+        <a href="https://x.com/Optimism"><img class="bundar" src="img/xiac.png" width="40"></a>
+        <a href="https://discord-gateway.optimism.io/"><img class="bundar" src="img/discord.png" width="40"></a>
+        <a href="https://github.com/ethereum-optimism/"><img class="bundar" src="img/github.png" width="40"></a>
+        <a href="https://www.optimism.io/"><img class="bundar" src="img/websitelogo.png" width="40"></a>
+        <a href="https://github.com/ethereum/wiki/wiki/White-Paper"><img class="bundar" src="img/whitepaper.png" width="40"></a>
+      </div>
+      <div class="opbody">
+        <a href="https://optimistic.etherscan.io/token/0x4200000000000000000000000000000000000042"><img class="bundar" src="img/blockchainexplorer.png" width="170"></a>
+      </div>
+  </details>
+  <div class="kosong"></div>
+  
+  <!---manta--->
+  <details class="mantabody">
+    <summary>Manta Network<img class="bundar" src="cryptologo/manta.png" width="20"></summary>
+    <h2>Manta</h2>
+    <div class="manta3d">
+    <div class="sidemanta">
+    <img src="cryptologo/manta.png" width="154">
+    </div>
+    <div class="sidemanta tails">
+    <img src="cryptologo/manta.png" width="154"></div></div>
+    <div class="kosong"></div>
+    <div class="mantabody">
+      <p style="color:#602d83; background-color:white;font-family:monospace;border:outset 10px #602d83;">☰Manta Network<img class="bundar" src="cryptologo/manta.png"width="15"> adalah ekosistem modular untuk web3.  Pengguna dapat membangun dan menerapkan aplikasi terdesentralisasi berbasis Soliditas apa pun di Manta dan memanfaatkan tumpukan teknologinya untuk memberikan kecepatan transaksi yang lebih cepat daripada L1 dan biaya bahan bakar lebih rendah daripada L2.</p>
+    </div>
+    <div class="mantabody">Harga:
+    <div 
+      class="coinmarketcap-currency-widget" 
+      data-currencyid="13631" 
+      data-base="IDR" 
+      data-secondary="" 
+      data-ticker="true" 
+      data-rank="true" 
+      data-marketcap="true" 
+      data-volume="true" 
+      data-statsticker="true" 
+      data-stats="IDR"></div>
+      </div>
+      </div>
+      <div class="mantabody">
+        <a href="https://twitter.com/MantaNetwork"><img class="bundar" src="img/xiac.png" width="40"></a>
+        <a href="https://discord.com/invite/mantanetwork"><img class="bundar" src="img/discord.png" width="40"></a>
+        <a href="https://t.me/mantanetworkofficial"><img class="bundar" src="img/telegram.png" width="40"></a>
+        <a href="https://github.com/Manta-Network"><img class="bundar" src="img/github.png" width="40"></a>
+        <a href="https://manta.network/"><img class="bundar" src="img/websitelogo.png" width="40"></a>
+        <a href="https://mantanetwork.medium.com/the-manta-pacific-roadmap-d09a9d918553"><img class="bundar" src="img/whitepaper.png" width="40"></a>
+      </div>
+      <div class="mantabody">
+        <a href="https://pacific-explorer.manta.network/token/0x95CeF13441Be50d20cA4558CC0a27B601aC544E5?tab=token_transfers"><img class="bundar" src="img/blockchainexplorer.png" width="170"></a>
+      </div>
+  </details>
+  <div class="kosong"></div>
+  
+  <!---near--->
+  <details class="nearbody">
+    <summary>Near Protocol<img class="bundar" src="cryptologo/near.png" width="20"></summary>
+    <h2>NEAR</h2>
+    <div class="near3d">
+    <div class="sidenear">
+    <img src="cryptologo/near.png" width="154">
+    </div>
+    <div class="sidenear tails">
+    <img src="cryptologo/near.png" width="154"></div></div>
+    <div class="kosong"></div>
+    <div class="nearbody">
+      <p>
+        ☰NEAR<img class="bundar" src="cryptologo/near.png" width="20"> adalah tumpukan abstraksi rantai, yang memberdayakan pembangun untuk membuat aplikasi yang dapat menjangkau miliaran pengguna dan di semua blockchain.
+      </p>
+    </div>
+    <div class="nearbody">Harga:
+    <div 
+      class="coinmarketcap-currency-widget" 
+      data-currencyid="6535" 
+      data-base="IDR" 
+      data-secondary="" 
+      data-ticker="true" 
+      data-rank="true" 
+      data-marketcap="true" 
+      data-volume="true" 
+      data-statsticker="true" 
+      data-stats="IDR"></div>
+      </div>
+      </div>
+      <div class="nearbody">
+        <a href="https://twitter.com/NEARProtocol"><img class="bundar" src="img/xiac.png" width="40"></a>
+        <a href="https://t.me/cryptonear"><img class="bundar" src="img/telegram.png" width="40"></a>
+        <a href="https://near.org/wechat/"><img class="bundar" src="img/discord.png" width="40"></a>
+        <a href="https://github.com/near"><img class="bundar" src="img/github.png" width="40"></a>
+        <a href="https://near.org/"><img class="bundar" src="img/websitelogo.png" width="40"></a>
+        <a href="https://near.org/papers/the-official-near-white-paper"><img class="bundar" src="img/whitepaper.png" width="40"></a>
+      </div>
+      <div class="nearbody">
+        <a href="https://nearblocks.io/id"><img class="bundar" src="img/blockchainexplorer.png" width="170"></a>
+      </div>
+  </details>
+  <div class="kosong"></div>
+  
+  <!---TON---->
+  <details class="tonbody">
+    <summary>Ton Coin<img class="bundar" src="cryptologo/ton.png" width="20"></summary>
+    <h2>TON</h2>
+    <div class="ton3d">
+    <div class="sideton">
+    <img src="cryptologo/ton.png" width="154">
+    </div>
+    <div class="sideton tails">
+    <img src="cryptologo/ton.png" width="154"></div></div>
+    <div class="kosong"></div>
+    <div class="tonbody">
+      <p>
+        ☰TON<img class="bundar" src="cryptologo/ton.png" width="20"> Internet yang terdesentralisasi dan terbuka, dibuat oleh komunitas menggunakan teknologi yang dirancang oleh Telegram.
+      </p>
+    </div>
+    <div class="tonbody">Harga:
+    <div 
+      class="coinmarketcap-currency-widget" 
+      data-currencyid="11419" 
+      data-base="IDR" 
+      data-secondary="" 
+      data-ticker="true" 
+      data-rank="true" 
+      data-marketcap="true" 
+      data-volume="true" 
+      data-statsticker="true" 
+      data-stats="IDR"></div>
+      </div>
+      </div>
+      <div class="tonbody">
+        <a href="https://twitter.com/ton_blockchain"><img class="bundar" src="img/xiac.png" width="40"></a>
+        <a href="https://t.me/tonblockchain"><img class="bundar" src="img/telegram.png" width="40"></a>
+        <a href="https://github.com/ton-blockchain"><img class="bundar" src="img/github.png" width="40"></a>
+        <a href="https://ton.org/"><img class="bundar" src="img/websitelogo.png" width="40"></a>
+        <a href="https://ton.org/whitepaper.pdf"><img class="bundar" src="img/whitepaper.png" width="40"></a>
+      </div>
+      <div class="tonbody">
+        <a href="https://tonviewer.com/"><img class="bundar" src="img/blockchainexplorer.png" width="170"></a>
+      </div>
+  </details>
+  <div class="kosong"></div>
+  
+  <!---zksync---->
+  <details class="zksyncbody">
+    <summary>Zksync<img class="bundar" src="cryptologo/zksync.png" width="20"></summary>
+    <h2>zkSync</h2>
+    <div class="zksync3d">
+    <div class="sidezksync">
+    <img src="cryptologo/zksync.png" width="154">
+    </div>
+    <div class="sidezksync tails">
+    <img src="cryptologo/zksync.png" width="154"></div></div>
+    <div class="kosong"></div>
+    <div class="zksyncbody">
+      <p>
+        ☰zkSync Era<img class="bundar" src="cryptologo/zksync.png" width="20"> adalah protokol Layer-2 yang menskalakan Ethereum dengan teknologi ZK mutakhir.  Misi kami bukan hanya untuk meningkatkan throughput Ethereum, namun untuk sepenuhnya menjaga nilai-nilai dasarnya – kebebasan, kedaulatan diri, desentralisasi – dalam skala besar.
+      </p>
+    </div>
+    <div class="zksyncbody">Harga:
+    <div 
+      class="coinmarketcap-currency-widget" 
+      data-currencyid="24091" 
+      data-base="IDR" 
+      data-secondary="" 
+      data-ticker="true" 
+      data-rank="true" 
+      data-marketcap="true" 
+      data-volume="true" 
+      data-statsticker="true" 
+      data-stats="IDR"></div>
+      </div>
+      <p>Nama Jaringan: zkSync Era Mainnet</p>
+      <p>URL RPC: https://mainnet.era.zksync.io</p>
+      <p>ID Rantai: 324</p>
+      <p>Simbol Mata Uang: ETH</p>
+      <p>Block Explorer URL: https://explorer.zksync.io/</p>
+      </div>
+      <div class="zksyncbody">
+        <a href="https://twitter.com/zksync"><img class="bundar" src="img/xiac.png" width="40"></a>
+        <a href="https://t.me/zksync"><img class="bundar" src="img/telegram.png" width="40"></a>
+        <a href="https://join.zksync.dev/"><img class="bundar" src="img/discord.png" width="40"></a>
+        <a href="https://zksync.io/"><img class="bundar" src="img/websitelogo.png" width="40"></a>
+      </div>
+      <div class="zksyncbody">
+        <a href="https://explorer.zksync.io/"><img class="bundar" src="img/blockchainexplorer.png" width="170"></a>
+      </div>
+  </details>
+  <div class="kosong"></div>
+  
+  <!---base---->
+  <details class="basebody">
+    <summary>Base<img class="bundar" src="cryptologo/base.png" width="20"></summary>
+    <h2>Base</h2>
+    <div class="base3d">
+    <div class="sidebase">
+    <img src="cryptologo/base.png" width="154">
+    </div>
+    <div class="sidebase tails">
+    <img src="cryptologo/base.png" width="154"></div></div>
+    <div class="kosong"></div>
+    <div class="basebody">
+      <p>
+        ☰Base<img class="bundar" src="cryptologo/base.png" width="20"> adalah Ethereum Layer-2 yang aman, berbiaya rendah, dan ramah pembangun yang dibuat untuk menghadirkan miliaran pengguna berikutnya secara onchain.
+      </p>
+    </div>
+    <div class="basebody">Harga:
+    <div 
+      class="coinmarketcap-currency-widget" 
+      data-currencyid="27716" 
+      data-base="IDR" 
+      data-secondary="" 
+      data-ticker="true" 
+      data-rank="true" 
+      data-marketcap="true" 
+      data-volume="true" 
+      data-statsticker="true" 
+      data-stats="IDR"></div>
+      </div>
+      <p>Nama Jaringan: Base Mainnet</p>
+      <p>URL RPC: https://mainnet.base.org</p>
+      <p>ID Rantai: 8453</p>
+      <p>Simbol Mata Uang: ETH</p>
+      <p>Block Explorer URL: https://basescan.org</p>
+      </div>
+      <div class="basebody">
+        <a href="https://twitter.com/BuildOnBase"><img class="bundar" src="img/xiac.png" width="40"></a>
+        <a href="https://discord.com/invite/buildonbase"><img class="bundar"src="img/discord.png"width="40"></a>
+        <a href="https://base.org/"><img class="bundar" src="img/websitelogo.png" width="40"></a>
+        <a href="https://www.github.com/base-org"><img class="bundar" src="img/github.png" width="40"></a>
+      </div>
+      <div class="basebody">
+        <a href="https://basescan.org/"><img class="bundar" src="img/blockchainexplorer.png" width="170"></a>
+      </div>
+  </details>
+  <div class="kosong"></div>
+  
+  <!---blast---->
+  <details class="blastbody">
+    <summary>Blast<img class="bundar" src="cryptologo/blast.png" width="20"></summary>
+    <h2>Blast</h2>
+    <div class="blast3d">
+    <div class="sideblast">
+    <img src="cryptologo/blast.png" width="154">
+    </div>
+    <div class="sideblast tails">
+    <img src="cryptologo/blast.png" width="154"></div></div>
+    <div class="kosong"></div>
+    <div class="blastbody">
+      <p style="color:yellow;">
+        ☰Blast<img class="bundar" src="cryptologo/blast.png" width="20"> adalah satu-satunya Ethereum Layer-2 dengan hasil asli untuk ETH dan stablecoin.
+      </p>
+    </div>
+    <div class="blastbody">Harga:
+    <div 
+      class="coinmarketcap-currency-widget" 
+      data-currencyid="28480" 
+      data-base="IDR" 
+      data-secondary="" 
+      data-ticker="true" 
+      data-rank="true" 
+      data-marketcap="true" 
+      data-volume="true" 
+      data-statsticker="true" 
+      data-stats="IDR"></div>
+      </div>
+      <p>Nama Jaringan: Blast Mainnet</p>
+      <p>URL RPC: https://rpc.blast.io/</p>
+      <p>ID Rantai: 81457</p>
+      <p>Simbol Mata Uang: ETH</p>
+      <p>Block Explorer URL: https://blastscan.io/</p>
+      </div>
+      <div class="blastbody">
+        <a href="https://twitter.com/Blast_L2"><img class="bundar" src="img/xiac.png" width="40"></a>
+        <a href="https://discord.com/invite/blast-l2"><img class="bundar"src="img/discord.png"width="40"></a>
+        <a href="https://blast.io/id"><img class="bundar" src="img/websitelogo.png" width="40"></a>
+        <a href="https://www.github.com/base-org"><img class="bundar" src="img/github.png" width="40"></a>
+        <a href="https://blast.io/id/devs"><img class="bundar" src="img/whitepaper.png" width="40"></a>
+      </div>
+      <div class="blastbody">
+        <a href="https://basescan.org/"><img class="bundar" src="img/blockchainexplorer.png" width="170"></a>
+      </div>
+  </details>
+  <div class="kosong"></div>
+  
+   <p align="center">
+    <font class="fnbkg">
+    <font class="fn2">Copyright</font>
+    <font class="fn1">IAC</font>
+    <font class="fn2">2024</font>
+    </font>
+    </p>
+    
+    <video autoplay muted loop class="background123">
+  <source src="video/background.mp4" type="video/mp4">
+  Update Browser nya brow
+</video>
+    
+</body>
+<script type="text/javascript" src="bitcoinhalving.js"></script>
+<script type="text/javascript" src="widgetbycmc.js"></script>
+<script type="text/javascript" src="coincurenncy.js"></script>
+<script type="text/javascript" src="ethgasfee.js"></script>
+<script type="text/javascript" src="btcgasfee.js"></script>
+</html>

@@ -1,0 +1,107 @@
+  details {
+    overflow: hidden;
+    transition: max-height 0.5s ease-in-out; /* Transisi ketinggian maksimum */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+  }
+  summary {
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-bottom: 1px solid #ddd;
+  }
+  table {
+    width: 100%;
+    opacity: 0;
+    transform: scale(0.9);
+    transition: opacity 0.5s ease, transform 0.5s ease; /* Transisi opacity dan transform */
+  }
+  details[open] table {
+    opacity: 1;
+    transform: scale(1);
+  }
+ a {
+   color: skyblue;
+ }
+  /* Animasi zoom in */
+  @keyframes zoomIn {
+    from {
+      transform: scale(1.1);
+      opacity: 0;
+    }
+    to {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+.bundar {
+  border-radius: 30px;
+}
+  .zoom {
+    animation: zoomIn 0.5s ease;
+  }
+
+/* coin */
+.coinbody {
+  background-color: #fea4047e;
+  width: auto;
+  text-align: center;
+  color: black;
+  font-size: 15px;
+  border: outset #f8ba3e 8px;
+}
+.coinkosong {
+  color: #fea404;
+}
+.coin3d {
+  font-size: 50px;
+  width: 0.1em;
+  height: 1em;
+  background: linear-gradient(black, black);
+  margin: auto;
+  position: ;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  animation: rotate_4001510 25s infinite linear; /* perubahan di sini */
+  transform-style: preserve-3d;
+}
+.coin3d .sidecoin,
+.coin3d:before,
+.coin3d:after {
+  content: "";
+  position: absolute;
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+  border-radius: 50%;
+  right: -0.4em;
+  text-align: center;
+  line-height: 1;
+  transform: rotateY(-90deg);
+  -moz-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.coin3d .tails, 
+.coin3d:after {
+  left: -0.4em;
+  transform: rotateY(90deg);
+}
+.coin3d:before, 
+.coin3d:after {
+  background: linear-gradient(black, black);
+  backface-visibility: hidden;
+  transform: rotateY(90deg);
+}
+.coin3d:after {
+  transform: rotateY(-90deg);
+}
+@keyframes rotate_4001510 {
+  100% {
+    transform: rotateY(3600deg);
+  }
+}

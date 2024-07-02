@@ -1,0 +1,65 @@
+
+.iacgpt {
+font-family: Monospace;
+text-align: center;
+margin-bottom: 20px;
+color: #007bff;
+        }
+.chat-container {
+max-width: 100%;
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+background-color: #fff;
+}
+.chat-box {
+height: 300px;
+overflow-y: scroll;
+border: 1px solid #ccc;
+border-radius: 5px;
+padding: 10px;
+margin-bottom: 10px;
+}
+input[type="text"] {
+width: calc(100% - 70px);
+padding: 8px;
+margin-right: 10px;
+border: 1px solid #ccc;
+border-radius: 5px;
+outline: none;
+        }
+button {
+padding: 8px 15px;
+background-color: #007bff;
+color: #fff;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+button:hover {
+  background-color: #0056b3;
+}
+.chat-box div {
+  margin-bottom: 5px;
+}
+.chat-box div:last-child {
+margin-bottom: 0;
+        }
+.user-message {
+text-align: right;
+color: #007bff;
+        }
+.bot-message {
+text-align: left;
+color: #333;position: relative;
+bottom: -20px; /* Mulai dari luar layar */
+animation: slide-up 0.5s ease forwards;
+}
+@keyframes slide-up {
+to { bottom: 0; }
+}
+.bot-message a {
+color: #007bff;
+text-decoration: underline;
+        }
+    

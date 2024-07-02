@@ -1,0 +1,239 @@
+body {
+  font-family: Monospace;
+  margin: 0;
+  padding: 0;
+}
+ 
+  /* Animasi zoom in */
+  @keyframes zoomIn {
+    from {
+      transform: scale(0.9);
+      opacity: 0;
+    }
+    to {
+      transform: scale(0.95);
+      opacity: 1;
+    }
+  }
+
+  .zoom {
+    animation: zoomIn 0.5s ease;
+  }
+nav {
+  background-color: rgba(135,206,235,0.86);
+  border: inset skyblue 5px;
+  overflow: hidden;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.menu-toggle {
+  color: white;
+  cursor: pointer;
+  padding: 14px 16px;
+  float: left;
+  display: none;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #b9e2e9;
+  border-radius: 39px;
+}
+
+@media screen and (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+  }
+  ul {
+    display: none;
+  }
+  ul.active {
+    display: block;
+  }
+}
+.bundar {
+  border-radius: 20px;
+}
+
+/* zksynms */
+
+.fnbkg {
+  background-color: aliceblue;
+  border-radius: 8px;
+  font-family: Monospace;
+}
+
+.fn1 {
+  color: black;
+  text-shadow: grey;
+}
+.fn2 {
+  color: skyblue;
+}
+/* img berputar */
+.iacbody {
+  background-color: #fea4047e;
+  width: auto;
+  text-align: center;
+  color: white;
+  font-family: Comic Sans MS;
+  font-size: 15px;
+  border: outset #f8ba3e 8px;
+}
+.iackosong {
+  color: #fea404;
+}
+.iac3d {
+  font-size: 154px;
+  width: 0.1em;
+  height: 1em;
+  background: linear-gradient(#000000, hsl(250, 84%, 10%));
+  margin: auto;
+  position: ;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  animation: rotate_4001510 25s infinite linear; /* perubahan di sini */
+  transform-style: preserve-3d;
+}
+.iac3d .sidebtc,
+.iac3d:before,
+.iac3d:after {
+  content: "";
+  position: absolute;
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+  border-radius: 50%;
+  right: -0.4em;
+  text-align: center;
+  line-height: 1;
+  transform: rotateY(-90deg);
+  -moz-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.iac3d .tails, 
+.iac3d:after {
+  left: -0.4em;
+  transform: rotateY(90deg);
+}
+.iac3d:before, 
+.iac3d:after {
+  background: linear-gradient(#000000, hsl(250, 84%, 10%));
+  backface-visibility: hidden;
+  transform: rotateY(90deg);
+}
+.iac3d:after {
+  transform: rotateY(-90deg);
+}
+@keyframes rotate_4001510 {
+  100% {
+    transform: rotateY(3600deg);
+  }
+}
+.tengah {
+  text-align: ;
+}
+.apaituairdropcrypto {
+  border: outset skyblue 10px;
+  color: #000000;
+  font-family: Monospace;
+  font-size: 15px;
+  background-color: white;
+}
+.apaituairdropcrypto2 {
+  border: outset skyblue 10px;
+  color: #082a50;
+  font-family: Monospace;
+  font-size:10px;
+  background-color:#ffffff;
+  font-family:monospace;
+}
+.logobundar {
+  border: inset #080808 6px;
+  border-radius: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.logobundar:hover {
+  transform: scale(1.1); /* Memperbesar gambar sebesar 30% saat dihover */
+  box-shadow: 0 0 60px rgba(1,160,252,0.837); /* Efek bayangan saat dihover */
+}
+.klik1 {
+  border: inset #14607f 6px;
+  border-radius: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.klik1:hover {
+  transform: scale(1.0); /* Memperbesar gambar sebesar 30% saat dihover */
+  box-shadow: 0 0 30px rgba(255, 255, 255, 0.837); /* Efek bayangan saat dihover */
+}
+.klik2 {
+  border: inset skyblue 2px;
+  border-top-color: white;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.78);
+}
+
+.klik2:hover {
+  background-color: #ddebea50;
+  color: white;
+  transform: scale(0.95); /* Memperbesar gambar sebesar 30% saat dihover */
+  box-shadow: 0 0 60px rgba(255,255,255,0.955); /* Efek bayangan saat dihover */
+}
+.background123 {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1; /* Menempatkan video di belakang konten lain */
+}
+@keyframes typing {
+  0% { width: 0; }
+  50% { width: 100%; }
+  60% { width: 100%; }
+  100% { width: 0; }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent; }
+  50% { border-color: black; }
+}
+
+.efek-mengetik {
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 0.15em solid rgb(255, 255, 255);
+  font-family: monospace;
+  color: #ffffff;
+  font-size: 40px;
+  animation: typing 6s steps(40, end) infinite, blink-caret 0.75s step-end infinite;
+}

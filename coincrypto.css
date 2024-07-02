@@ -1,0 +1,1066 @@
+/* bitcoin */
+.bitcoinbody {
+  background-color: #fea4047e;
+  width: auto;
+  text-align: center;
+  color: white;
+  font-family: Comic Sans MS;
+  font-size: 15px;
+  border: outset #f8ba3e 8px;
+}
+.bitcoinkosong {
+  color: #fea404;
+}
+.bitcoin3d {
+  font-size: 154px;
+  width: 0.1em;
+  height: 1em;
+  background: linear-gradient(#f59000, #141001);
+  margin: auto;
+  position: ;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  animation: rotate_4001510 25s infinite linear; /* perubahan di sini */
+  transform-style: preserve-3d;
+}
+.bitcoin3d .sidebtc,
+.bitcoin3d:before,
+.bitcoin3d:after {
+  content: "";
+  position: absolute;
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+  border-radius: 50%;
+  right: -0.4em;
+  text-align: center;
+  line-height: 1;
+  transform: rotateY(-90deg);
+  -moz-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.bitcoin3d .tails, 
+.bitcoin3d:after {
+  left: -0.4em;
+  transform: rotateY(90deg);
+}
+.bitcoin3d:before, 
+.bitcoin3d:after {
+  background: linear-gradient(#f59000, #141001);
+  backface-visibility: hidden;
+  transform: rotateY(90deg);
+}
+.bitcoin3d:after {
+  transform: rotateY(-90deg);
+}
+@keyframes rotate_4001510 {
+  100% {
+    transform: rotateY(3600deg);
+  }
+}
+
+/* ethereum */
+.ethereumbody {
+  background-color: #f7f7f7c2;
+  border: outset #565656 8px;
+  border-bottom: inset grey 8px;
+  text-align: center;
+}
+.ethereumbundar {
+  border-radius: 100px;
+}
+.ethereumfont {
+  font-family: Monospace;
+  border: outset black 8px;
+  font-size: 10px;
+  background-color: #00000080;
+  border-radius: 8px;
+  color: white;
+}
+.ethereum3d {
+  font-size: 154px;
+  width: 0.1em;
+  height: 1em;
+  background: linear-gradient(#ffffff, #141001);
+  margin: auto;
+  position: ;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  animation: rotate_4001510 25s infinite linear; /* perubahan di sini */
+  transform-style: preserve-3d;
+}
+.ethereum3d 
+.ethside,
+.ethereum3d:before,
+.ethereum3d:after {
+  content: "";
+  position: absolute;
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+  border-radius: 50%;
+  right: -0.4em;
+  text-align: center;
+  line-height: 1;
+  transform: rotateY(-90deg);
+  -moz-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.ethereum3d 
+.ethbelakang, 
+.ethereum3d:after {
+  left: -0.4em;
+  transform: rotateY(90deg);
+}
+.ethereum3d:before, 
+.ethereum3d:after {
+  background: linear-gradient(#ffffff, #141001);
+  backface-visibility: hidden;
+  transform: rotateY(90deg);
+}
+.ethereum3d:after {
+  transform: rotateY(-90deg);
+}
+@keyframes rotate_4001510 {
+  100% {
+    transform: rotateY(3600deg);
+  }
+}
+
+/*solana*/
+.solanabody {
+  background-color: #000000bd;
+  color: white;
+  text-align: center;
+  border: outset #000000 8px;
+}
+.solana3d {
+  font-size: 154px;
+  width: 0.1em;
+  height: 1em;
+  background: linear-gradient(#000, #141001);
+  margin: auto;
+  position: ;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  animation: rotate_4001510 25s infinite linear; /* perubahan di sini */
+  transform-style: preserve-3d;
+}
+.solana3d 
+.sidesol,
+.solana3d:before,
+.solana3d:after {
+  content: "";
+  position: absolute;
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+  border-radius: 50%;
+  right: -0.4em;
+  text-align: center;
+  line-height: 1;
+  transform: rotateY(-90deg);
+  -moz-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.solana3d 
+.tails, 
+.solana3d:after {
+  left: -0.4em;
+  transform: rotateY(90deg);
+}
+.solana3d:before, 
+.solana3d:after {
+  background: linear-gradient(#000, #141001);
+  backface-visibility: hidden;
+  transform: rotateY(90deg);
+}
+.solana3d:after {
+  transform: rotateY(-90deg);
+}
+@keyframes rotate_4001510 {
+  100% {
+    transform: rotateY(3600deg);
+  }
+}
+
+/*sui*/
+.suibody {
+  background-color: #00afff81;
+  color: white;
+  text-align: center;
+  border-bottom-left-radius: outset #0498db 3px;
+  border: outset #0498db 8px;
+}
+.suih3 {
+  background-color: #5194ea;
+  border: outset #5194ea 8px;
+  border-radius: 9px;
+}
+.fontsui {
+  font-family: Monospace;
+  color: white;
+}
+.sui3d {
+  font-size: 154px;
+  width: 0.1em;
+  height: 1em;
+  background: linear-gradient(#00afff, #141001);
+  margin: auto;
+  position: ;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  animation: rotate_4001510 25s infinite linear; /* perubahan di sini */
+  transform-style: preserve-3d;
+}
+.sui3d 
+.sidesui,
+.sui3d:before,
+.sui3d:after {
+  content: "";
+  position: absolute;
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+  border-radius: 50%;
+  right: -0.4em;
+  text-align: center;
+  line-height: 1;
+  transform: rotateY(-90deg);
+  -moz-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.sui3d 
+.tails, 
+.sui3d:after {
+  left: -0.4em;
+  transform: rotateY(90deg);
+}
+.sui3d:before, 
+.sui3d:after {
+  background: linear-gradient(#00afff, #141001);
+  backface-visibility: hidden;
+  transform: rotateY(90deg);
+}
+.sui3d:after {
+  transform: rotateY(-90deg);
+}
+@keyframes rotate_4001510 {
+  100% {
+    transform: rotateY(3600deg);
+  }
+}
+
+/*aptos*/
+.aptosbody {
+  background-color: #64646465;
+  text-align: center;
+  color: white;
+  border: outset black 8px;
+}
+.aptosh2 {
+  color: white;
+}
+.fontaptosputih {
+  color: black;
+  background-color: white;
+  font-family: Monospace;
+}
+.fontaptosblack {
+  color: white;
+  background-color: black;
+  font-family: Monospace;
+}
+.aptos3d {
+  font-size: 154px;
+  width: 0.1em;
+  height: 1em;
+  background: linear-gradient(white, #141001);
+  margin: auto;
+  position: ;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  animation: rotate_4001510 25s infinite linear; /* perubahan di sini */
+  transform-style: preserve-3d;
+}
+.aptos3d 
+.sideaptos,
+.aptos3d:before,
+.aptos3d:after {
+  content: "";
+  position: absolute;
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+  border-radius: 50%;
+  right: -0.4em;
+  text-align: center;
+  line-height: 1;
+  transform: rotateY(-90deg);
+  -moz-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.aptos3d 
+.tails, 
+.aptos3d:after {
+  left: -0.4em;
+  transform: rotateY(90deg);
+}
+.aptos3d:before, 
+.aptos3d:after {
+  background: linear-gradient(white, #141001);
+  backface-visibility: hidden;
+  transform: rotateY(90deg);
+}
+.aptos3d:after {
+  transform: rotateY(-90deg);
+}
+@keyframes rotate_4001510 {
+  100% {
+    transform: rotateY(3600deg);
+  }
+}
+.bnbbody {
+  color: #847134;
+  text-align: center;
+  background-color: #ffffffb9;
+  border: inset #ffc100ce 8px;
+}
+.bnb3d {
+  font-size: 154px;
+  width: 0.1em;
+  height: 1em;
+  background: linear-gradient(black, #ffc100ce);
+  margin: auto;
+  position: ;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  animation: rotate_4001510 25s infinite linear; /* perubahan di sini */
+  transform-style: preserve-3d;
+}
+.bnb3d 
+.sidebnb,
+.bnb3d:before,
+.bnb3d:after {
+  content: "";
+  position: absolute;
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+  border-radius: 50%;
+  right: -0.4em;
+  text-align: center;
+  line-height: 1;
+  transform: rotateY(-90deg);
+  -moz-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.bnb3d 
+.tails, 
+.bnb3d:after {
+  left: -0.4em;
+  transform: rotateY(90deg);
+}
+.bnb3d:before, 
+.bnb3d:after {
+  background: linear-gradient(black, #ffc100ce);
+  backface-visibility: hidden;
+  transform: rotateY(90deg);
+}
+.bnb3d:after {
+  transform: rotateY(-90deg);
+}
+@keyframes rotate_4001510 {
+  100% {
+    transform: rotateY(3600deg);
+  }
+}
+.arbitrumbody {
+  border: inset #1a4082 8px;
+  color: white;
+  text-align: center;
+  background-color: #b5b2b29f;
+}
+.arbfont {
+  border: inset #ffffff 8px;
+  font-family: Comic Sans MS;
+  font-size: 15px;
+  color: white;
+}
+.arb3d {
+  font-size: 154px;
+  width: 0.1em;
+  height: 1em;
+  background: linear-gradient(#1a4082, black);
+  margin: auto;
+  position: ;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  animation: rotate_4001510 25s infinite linear; /* perubahan di sini */
+  transform-style: preserve-3d;
+}
+.arb3d 
+.sidearb,
+.arb3d:before,
+.arb3d:after {
+  content: "";
+  position: absolute;
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+  border-radius: 50%;
+  right: -0.4em;
+  text-align: center;
+  line-height: 1;
+  transform: rotateY(-90deg);
+  -moz-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.arb3d 
+.tails, 
+.arb3d:after {
+  left: -0.4em;
+  transform: rotateY(90deg);
+}
+.arb3d:before, 
+.arb3d:after {
+  background: linear-gradient(#1a4082, black);
+  backface-visibility: hidden;
+  transform: rotateY(90deg);
+}
+.arb3d:after {
+  transform: rotateY(-90deg);
+}
+@keyframes rotate_4001510 {
+  100% {
+    transform: rotateY(3600deg);
+  }
+}
+
+/* Cardano */
+.cardanobody {
+  text-align: center;
+  color: white;
+  background-color: #002ce759;
+  border: inset #002ce7ec 8px;
+}
+.fontcardano {
+  background-color: #0020e7ec;
+  border: inset #0020e7ec 7px;
+  border-radius: 8px;
+  color: white;
+  font-size: 8px;
+}
+.cardano3d {
+  font-size: 154px;
+  width: 0.1em;
+  height: 1em;
+  background: linear-gradient(white, white);
+  margin: auto;
+  position: ;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  animation: rotate_4001510 25s infinite linear; /* perubahan di sini */
+  transform-style: preserve-3d;
+}
+.cardano3d 
+.sideada,
+.cardano3d:before,
+.cardano3d:after {
+  content: "";
+  position: absolute;
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+  border-radius: 50%;
+  right: -0.4em;
+  text-align: center;
+  line-height: 1;
+  transform: rotateY(-90deg);
+  -moz-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.cardano3d 
+.tails, 
+.cardano3d:after {
+  left: -0.4em;
+  transform: rotateY(90deg);
+}
+.cardano3d:before, 
+.cardano3d:after {
+  background: linear-gradient(white, white);
+  backface-visibility: hidden;
+  transform: rotateY(90deg);
+}
+.cardano3d:after {
+  transform: rotateY(-90deg);
+}
+@keyframes rotate_4001510 {
+  100% {
+    transform: rotateY(3600deg);
+  }
+}
+
+/* INJ */
+.injbody {
+  text-align: center;
+  color: white;
+  background-color: #00000091;
+  border: inset #0096e7ec 8px;
+}
+.inj3d {
+  font-size: 154px;
+  width: 0.1em;
+  height: 1em;
+  background: linear-gradient(#000000, #0096e7ec);
+  margin: auto;
+  position: ;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  animation: rotate_4001510 25s infinite linear; /* perubahan di sini */
+  transform-style: preserve-3d;
+}
+.inj3d 
+.sideinj,
+.inj3d:before,
+.inj3d:after {
+  content: "";
+  position: absolute;
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+  border-radius: 50%;
+  right: -0.4em;
+  text-align: center;
+  line-height: 1;
+  transform: rotateY(-90deg);
+  -moz-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.inj3d 
+.tails, 
+.inj3d:after {
+  left: -0.4em;
+  transform: rotateY(90deg);
+}
+.inj3d:before, 
+.inj3d:after {
+  background: linear-gradient(#000000, #0096e7ec);
+  backface-visibility: hidden;
+  transform: rotateY(90deg);
+}
+.inj3d:after {
+  transform: rotateY(-90deg);
+}
+@keyframes rotate_4001510 {
+  100% {
+    transform: rotateY(3600deg);
+  }
+}
+
+/* celestia */
+.celestiabody {
+  text-align: center;
+  color: white;
+  background-color: #8a09e3;
+  border: inset white 8px;
+}
+.celestia3d {
+  font-size: 154px;
+  width: 0.1em;
+  height: 1em;
+  background: linear-gradient(#8a09e3, black);
+  margin: auto;
+  position: ;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  animation: rotate_4001510 25s infinite linear; /* perubahan di sini */
+  transform-style: preserve-3d;
+}
+.celestia3d 
+.sidetia,
+.celestia3d:before,
+.celestia3d:after {
+  content: "";
+  position: absolute;
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+  border-radius: 50%;
+  right: -0.4em;
+  text-align: center;
+  line-height: 1;
+  transform: rotateY(-90deg);
+  -moz-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.celestia3d 
+.tails, 
+.celestia3d:after {
+  left: -0.4em;
+  transform: rotateY(90deg);
+}
+.celestia3d:before, 
+.celestia3d:after {
+  background: linear-gradient(#8a09e3, black);
+  backface-visibility: hidden;
+  transform: rotateY(90deg);
+}
+.celestia3d:after {
+  transform: rotateY(-90deg);
+}
+@keyframes rotate_4001510 {
+  100% {
+    transform: rotateY(3600deg);
+  }
+}
+
+/* optimism */
+.opbody {
+  text-align: center;
+  color: white;
+  background-color: #d41010d7;
+  border: inset #e70000ec 8px;
+}
+.op3d {
+  font-size: 154px;
+  width: 0.1em;
+  height: 1em;
+  background: linear-gradient(#e70000ec, #e70000ec);
+  margin: auto;
+  position: ;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  animation: rotate_4001510 25s infinite linear; /* perubahan di sini */
+  transform-style: preserve-3d;
+}
+.op3d 
+.sideop,
+.op3d:before,
+.op3d:after {
+  content: "";
+  position: absolute;
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+  border-radius: 50%;
+  right: -0.4em;
+  text-align: center;
+  line-height: 1;
+  transform: rotateY(-90deg);
+  -moz-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.op3d 
+.tails, 
+.op3d:after {
+  left: -0.4em;
+  transform: rotateY(90deg);
+}
+.op3d:before, 
+.op3d:after {
+  background: linear-gradient(#e70000ec, #e70000ec);
+  backface-visibility: hidden;
+  transform: rotateY(90deg);
+}
+.op3d:after {
+  transform: rotateY(-90deg);
+}
+@keyframes rotate_4001510 {
+  100% {
+    transform: rotateY(3600deg);
+  }
+}
+
+/* manta */
+.mantabody {
+  text-align: center;
+  color: white;
+  background-color: black;
+  border: inset #602d83 8px;
+}
+.manta3d {
+  font-size: 154px;
+  width: 0.1em;
+  height: 1em;
+  background: linear-gradient(black, #602d83);
+  margin: auto;
+  position: ;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  animation: rotate_4001510 25s infinite linear; /* perubahan di sini */
+  transform-style: preserve-3d;
+}
+.manta3d 
+.sidemanta,
+.manta3d:before,
+.manta3d:after {
+  content: "";
+  position: absolute;
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+  border-radius: 50%;
+  right: -0.4em;
+  text-align: center;
+  line-height: 1;
+  transform: rotateY(-90deg);
+  -moz-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.manta3d 
+.tails, 
+.manta3d:after {
+  left: -0.4em;
+  transform: rotateY(90deg);
+}
+.manta3d:before, 
+.manta3d:after {
+  background: linear-gradient(black, #602d83);
+  backface-visibility: hidden;
+  transform: rotateY(90deg);
+}
+.manta3d:after {
+  transform: rotateY(-90deg);
+}
+@keyframes rotate_4001510 {
+  100% {
+    transform: rotateY(3600deg);
+  }
+}
+
+/* near */
+.nearbody {
+  text-align: center;
+  color: white;
+  background-color: #00e75083;
+  border: inset #00e77bec 8px;
+}
+.near3d {
+  font-size: 154px;
+  width: 0.1em;
+  height: 1em;
+  background: linear-gradient(#00e77bec, #000000);
+  margin: auto;
+  position: ;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  animation: rotate_4001510 25s infinite linear; /* perubahan di sini */
+  transform-style: preserve-3d;
+}
+.near3d 
+.sidenear,
+.near3d:before,
+.near3d:after {
+  content: "";
+  position: absolute;
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+  border-radius: 50%;
+  right: -0.4em;
+  text-align: center;
+  line-height: 1;
+  transform: rotateY(-90deg);
+  -moz-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.near3d 
+.tails, 
+.near3d:after {
+  left: -0.4em;
+  transform: rotateY(90deg);
+}
+.near3d:before, 
+.near3d:after {
+  background: linear-gradient(#00e77bec, #000000);
+  backface-visibility: hidden;
+  transform: rotateY(90deg);
+}
+.near3d:after {
+  transform: rotateY(-90deg);
+}
+@keyframes rotate_4001510 {
+  100% {
+    transform: rotateY(3600deg);
+  }
+}
+
+/* ton */
+.tonbody {
+  text-align: center;
+  color: white;
+  background-color: #2bacff83;
+  border: inset #2bacff 8px;
+}
+.ton3d {
+  font-size: 154px;
+  width: 0.1em;
+  height: 1em;
+  background: linear-gradient(#2bacff, #000000);
+  margin: auto;
+  position: ;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  animation: rotate_4001510 25s infinite linear; /* perubahan di sini */
+  transform-style: preserve-3d;
+}
+.ton3d 
+.sideton,
+.ton3d:before,
+.ton3d:after {
+  content: "";
+  position: absolute;
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+  border-radius: 50%;
+  right: -0.4em;
+  text-align: center;
+  line-height: 1;
+  transform: rotateY(-90deg);
+  -moz-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.ton3d 
+.tails, 
+.ton3d:after {
+  left: -0.4em;
+  transform: rotateY(90deg);
+}
+.ton3d:before, 
+.ton3d:after {
+  background: linear-gradient(#2bacff, #000000);
+  backface-visibility: hidden;
+  transform: rotateY(90deg);
+}
+.ton3d:after {
+  transform: rotateY(-90deg);
+}
+@keyframes rotate_4001510 {
+  100% {
+    transform: rotateY(3600deg);
+  }
+}
+
+/* zksync */
+.zksyncbody {
+  text-align: center;
+  color: white;
+  background-color: #00000086;
+  border: inset #ffffff 8px;
+}
+.zksync3d {
+  font-size: 154px;
+  width: 0.1em;
+  height: 1em;
+  background: linear-gradient(#ffffff, #000000);
+  margin: auto;
+  position: ;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  animation: rotate_4001510 25s infinite linear; /* perubahan di sini */
+  transform-style: preserve-3d;
+}
+.zksync3d 
+.sidezksync,
+.zksync3d:before,
+.zksync3d:after {
+  content: "";
+  position: absolute;
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+  border-radius: 50%;
+  right: -0.4em;
+  text-align: center;
+  line-height: 1;
+  transform: rotateY(-90deg);
+  -moz-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.zksync3d 
+.tails, 
+.zksync3d:after {
+  left: -0.4em;
+  transform: rotateY(90deg);
+}
+.zksync3d:before, 
+.zksync3d:after {
+  background: linear-gradient(#ffffff, #000000);
+  backface-visibility: hidden;
+  transform: rotateY(90deg);
+}
+.zksync3d:after {
+  transform: rotateY(-90deg);
+}
+@keyframes rotate_4001510 {
+  100% {
+    transform: rotateY(3600deg);
+  }
+}
+
+/* base */
+.basebody {
+  text-align: center;
+  color: white;
+  background-color: #1454f69d;
+  border: inset #ffffff 8px;
+}
+.base3d {
+  font-size: 154px;
+  width: 0.1em;
+  height: 1em;
+  background: linear-gradient(#a0b7f2, #000000);
+  margin: auto;
+  position: ;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  animation: rotate_4001510 25s infinite linear; /* perubahan di sini */
+  transform-style: preserve-3d;
+}
+.base3d 
+.sidebase,
+.base3d:before,
+.base3d:after {
+  content: "";
+  position: absolute;
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+  border-radius: 50%;
+  right: -0.4em;
+  text-align: center;
+  line-height: 1;
+  transform: rotateY(-90deg);
+  -moz-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.base3d 
+.tails, 
+.base3d:after {
+  left: -0.4em;
+  transform: rotateY(90deg);
+}
+.base3d:before, 
+.base3d:after {
+  background: linear-gradient(#a0b7f2, #000000);
+  backface-visibility: hidden;
+  transform: rotateY(90deg);
+}
+.base3d:after {
+  transform: rotateY(-90deg);
+}
+@keyframes rotate_4001510 {
+  100% {
+    transform: rotateY(3600deg);
+  }
+}
+
+/* blast */
+.blastbody {
+  text-align: center;
+  color: white;
+  background-color: #00000072;
+  border: inset #ecff35 8px;
+}
+.blast3d {
+  font-size: 154px;
+  width: 0.1em;
+  height: 1em;
+  background: linear-gradient(#000000, #798600);
+  margin: auto;
+  position: ;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  animation: rotate_4001510 25s infinite linear; /* perubahan di sini */
+  transform-style: preserve-3d;
+}
+.blast3d 
+.sideblast,
+.blast3d:before,
+.blast3d:after {
+  content: "";
+  position: absolute;
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+  border-radius: 50%;
+  right: -0.4em;
+  text-align: center;
+  line-height: 1;
+  transform: rotateY(-90deg);
+  -moz-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.blast3d 
+.tails, 
+.blast3d:after {
+  left: -0.4em;
+  transform: rotateY(90deg);
+}
+.blast3d:before, 
+.blast3d:after {
+  background: linear-gradient(#000000, #798600);
+  backface-visibility: hidden;
+  transform: rotateY(90deg);
+}
+.blast3d:after {
+  transform: rotateY(-90deg);
+}
+@keyframes rotate_4001510 {
+  100% {
+    transform: rotateY(3600deg);
+  }
+}
