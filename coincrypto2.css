@@ -23,7 +23,7 @@
     transform: scale(1);
   }
  a {
-   color: skyblue;
+   color: white;
  }
   /* Animasi zoom in */
   @keyframes zoomIn {
@@ -104,4 +104,31 @@
   100% {
     transform: rotateY(3600deg);
   }
+}
+
+.ptextairdrop {
+  color: #0099ff;
+  font-family: Monospace;
+}
+
+button {
+  padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #706e6e;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #4d91df;
+}
+
+.backgroundairdrop {
+    text-align: center;
+    color: #251694;
+    font-family: Monospace;
+    height: 15rem;
 }
