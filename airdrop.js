@@ -6,7 +6,7 @@ function searchAirdrop() {
       cells = results.getElementsByClassName('cell');
       
       for (i = 0; i < cells.length; i++) {
-        p = cells[i].getElementsByTagName("p")[0];
+        p = cells[i].getElementsByTagName("h5")[0];
         txtValue = p.textContent || p.innerText;
         if (txtValue.toUpperCase().indexOf(filter) > -1) {
           cells[i].style.display = "";
