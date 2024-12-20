@@ -39,10 +39,18 @@
     height: auto;
     z-index: -1;
 }
-.buttw {
-   background-color: #16246b; 
-   border: none; 
-   color: white; 
+details {
+  color: #4fd9ac;
+  font-family: Monospace;
+  margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #00000084;
+}
+
+.buttw:hover {
+    color: white; 
    padding: 15px 32px;
    text-align: center;
    text-decoration: none;
@@ -52,18 +60,38 @@
    cursor: pointer; 
    border-radius: 12px; 
    transition-duration: 0.4s;
-}
-.buttw:hover {
-  background-color: white;
-  color: black; 
-  border: 2px solid #173340; 
+    background: linear-gradient(135deg, white, black); /* Gradasi ungu dan biru */
+    color: #ffffff; /* Teks berwarna putih */
+    border: none;
+    box-shadow: 0 10px 0 black;
+    font-size: 14px; /* Ukuran font tombol */
+    transition: background-color 0.3s, transform 0.3s;
 }
 .buttw:active {
   background-color: #000000; 
   border: 2px solid #5eb4ff;
   color: white;
+  box-shadow: 0 5px 0 black;
+  transform: translateY(5px);
 }
-
+.buttw {
+   background: linear-gradient(135deg, skyblue, #000);
+    transform: scale(1.05);
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px; 
+    margin: 4px 2px; 
+    cursor: pointer; 
+    border-radius: 12px; 
+    transition-duration: 0.4s;
+    background: linear-gradient(135deg, white, black); /* Gradasi ungu dan biru */
+    box-shadow: 0 10px 0 black;
+    font-size: 14px; /* Ukuran font tombol */
+    transition: background-color 0.3s, transform 0.3s;
+}
 </style>
 <body>
  
@@ -71,7 +99,7 @@
     <div class="menu-toggle" onclick="toggleMenu()">&#9776;</div>
     <ul id="menu">
       <li onclick="this.classList.toggle('zoom')"><a href="halaman_id.html">Home</a></li>
-      <li><a href="airdrop.html">Airdrop</a></li>
+      <li onclick="this.classList.toggle('zoom')"><a href="airdrop.html">Airdrop</a></li>
       <li onclick="this.classList.toggle('zoom')"><a href="coincrypto.html">Coin Crypto</a></li>
     </ul>
       
@@ -87,16 +115,8 @@
       <div class="sidebtc tails">
       <img src="img/iac1.png" width="154"></div>
       </div>
-  
-    <h1 class="backroundwallet">
-    <font class="fnbkg">
-    <font class="fn2">Info</font>
-    <font class="fn1">Airdrop</font>
-    <font class="fn2">Crypto</font>
-    </font>
-    </h1>
     
-    <p style="font-family:monospace;text-align:center;font-size:10px;"onclick="this.classList.toggle('zoom')"class="klik2">
+    <p style="font-family:monospace;text-align:center;font-size:10px;"class="klik2">
       Welcome to IAC (Info Airdrop Crypto) Indonesia cryptocurrency community
     </p>
     
@@ -140,6 +160,9 @@
       <img class="bundar"width="40px"src="cryptologo/notcoin.png"alt="notcoin">
       <img class="bundar"width="40px"src="cryptologo/zksync.png"alt="zksync">
       <img class="bundar"width="40px"src="cryptologo/banano.png"alt="banano">
+      <img class="bundar"width="40px"src="cryptologo/jupiter.png"alt="jupiter">
+      <img class="bundar"width="40px"src="cryptologo/lido_dao.png"alt="ldo">
+      <img class="bundar"width="40px"src="cryptologo/wethereum.png"alt="weth">
     </marquee>
       
       <div style="height:75px;"></div>
@@ -149,23 +172,23 @@
     <div style="height:200px;"></div>
     
     <!---apa itu airdrop crypto--->
-    <details onclick="this.classList.toggle('zoom')">
+    <details >
       <summary class="apaituairdropcrypto">Apa itu Airdrop crypto?</summary>
       <p class="apaituairdropcrypto2" class="apaituairdropcrypto">Airdrop crypto adalah pemberian aset crypto kepada komunitas atau pemegang wallet crypto individu yang berhak dan memenuhi syarat-syarat tertentu. Dalam prosesnya, airdrop diklaim secara manual melalui website resmi sebuah proyek crypto. Tak jarang juga terdapat airdrop yang dikirim langsung ke wallet. Salah satu tujuan dari airdrop adalah sebagai strategi pemasaran dan menjadikan komunitas lebih mengenal sebuah proyek crypto yang akan diluncurkan.</p>
     </details>
     <hr>
     <!---bagaimana cara mendapatkannya--->
-    <details onclick="this.classList.toggle('zoom')">
+    <details >
       <summary class="apaituairdropcrypto">Bagaimana cara ikut Airdrop crypto?</summary>
-      <p class="apaituairdropcrypto2" class="apaituairdropcrypto">Ada berbagai cara mengikuti atau mendapatkan airdrop, paling mudah adalah kamu bergabung ke grup <a href="https://chat.whatsapp.com/K7IrcyyvYt77RiSSXuTZGH">Group IAC</a> atau pemburu airdrop yang bisa kamu temukan di telegram, facebook, dan lain sebagainya</p>
+      <p class="apaituairdropcrypto2" class="apaituairdropcrypto">Ada berbagai cara mengikuti atau mendapatkan airdrop, paling mudah adalah kamu bergabung ke grup <a href="https://t.me/airdropiac">Group IAC</a> atau pemburu airdrop yang bisa kamu temukan di telegram, facebook, dan lain sebagainya</p>
     </details>
     <hr>
     <!---alat untuk garap airdrop--->
-    <details onclick="this.classList.toggle('zoom')">
+    <details >
       <summary class="apaituairdropcrypto">Alat Untuk Garap Airdrop</summary>
       <div style="height:10px;"></div>
       <!---wallet crypto--->
-        <details onclick="this.classList.toggle('zoom')">
+        <details >
           <summary class="apaituairdropcrypto2">Wallet Crypto</summary>
           <div style="height:10px;"></div>
               <div class="apaituairdropcrypto2">Untuk Wallet Crypto Ada Banyak Tapi Tenang Min IAC Udah Siapin Nih Buat Kamu:v</div>
@@ -232,7 +255,7 @@
             </details>
         <hr>
       <!---x--->
-        <details onclick="this.classList.toggle('zoom')">
+        <details >
         <summary class="apaituairdropcrypto2">X/Twitter<img class="bundar" src="img/xiac.png"width="15"></summary>
         <div style="height:10px;"></div>
         <a class="apaituairdropcrypto2" href="https://play.google.com/store/apps/details?id=com.twitter.android">Android</a>
@@ -241,7 +264,7 @@
         </details>
         <div style="height:10px;"></div>
       <!---telegram--->
-        <details onclick="this.classList.toggle('zoom')">
+        <details >
           <summary class="apaituairdropcrypto2">Telegram<img class="bundar" src="img/telegram.png"width="15"></summary>
           <div style="height:10px;"></div>
             <a class="apaituairdropcrypto2" href="https://play.google.com/store/apps/details?id=org.telegram.messenger">Android</a>
@@ -250,7 +273,7 @@
         </details>
         <div style="height:10px;"></div>
       <!---discord--->
-        <details onclick="this.classList.toggle('zoom')">
+        <details >
           <summary class="apaituairdropcrypto2">Discord<img class="bundar" src="img/discord.png"width="15"></summary>
           <div style="height:10px;"></div>
             <a class="apaituairdropcrypto2" href="https://play.google.com/store/apps/details?id=com.discord">Android</a>
@@ -259,7 +282,7 @@
         </details>
         <div style="height:10px;"></div>
       <!---github--->
-      <details onclick="this.classList.toggle('zoom')">
+      <details >
           <summary class="apaituairdropcrypto2">Github<img class="bundar" src="img/github.png"width="15"></summary>
           <div style="height:10px;"></div>
             <a class="apaituairdropcrypto2" href="https://play.google.com/store/apps/details?id=com.github.android">Android</a>
@@ -268,7 +291,7 @@
         </details>
         <div style="height:10px;"></div>
     <!---medium--->
-      <details onclick="this.classList.toggle('zoom')">
+      <details >
           <summary class="apaituairdropcrypto2">Medium<img class="bundar" src="img/medium.png"width="15"></summary>
           <div style="height:10px;"></div>
             <a class="apaituairdropcrypto2" href="https://play.google.com/store/apps/details?id=com.medium.reader">Android</a>
@@ -279,7 +302,7 @@
     </details>
     <hr>
     <!---jenis airdrop crypto--->
-    <details onclick="this.classList.toggle('zoom')">
+    <details >
       <summary class="apaituairdropcrypto">Jenis Airdrop crypto</summary>
       <p class="apaituairdropcrypto2" class="apaituairdropcrypto">Berdasarkan cara mendapatkannya airdrop dibagi menjadi beberapa jenis, yaitu:</p>
       <!---bounty airdrop--->
@@ -301,7 +324,7 @@
    
    <hr id="keatas">
    
-   <details onclick="this.classList.toggle('zoom')" class="apaituairdropcrypto">
+   <details class="apaituairdropcrypto">
      <summary>Istilah² Penting Didalam Dunia crypto</summary>
      <br>
      <details class="apaituairdropcrypto2">
@@ -600,7 +623,7 @@
   <div style="height:120px;"></div>
     
     <div style="text-align:right;">
-    <button class="buttw" onclick="alert('Halaman Chat GPT telah dipindahkan')">(?)</button>
+    <button class="buttw" onclick="confirm('Halaman Chat GPT telah dipindahkan')">(?)</button>
     <a href="chatgpt.html"><button class="buttw">Open Chat GPT</button></a>
     </div>
     
@@ -641,4 +664,4 @@
 </body>
 <script type="text/javascript" src="widgetbycmc.js"></script>
 <script type="text/javascript" src="coincurenncy.js"></script>
-</html>
+                                                                         </html>
